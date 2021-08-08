@@ -1,0 +1,29 @@
+.listSchool {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 50%;
+  margin-top: 2rem;
+}
+.listSchool .cardContent {
+  width: 100%;
+  border: none;
+}
+.listSchool .sideSection {
+  background-color: #8f267b;
+  width: 20%;
+  border-radius: 20% 0% 0% 20%;
+}
+.listSchool .sideRight {
+  border-radius: 0% 20% 20% 0%;
+  width: 80%;
+}
+.listSchool .sectionNameSpan {
+  color: white;
+  margin: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.listSchool .cardContent {
+  max-width: 540px;
+}

@@ -1,0 +1,19 @@
+<!-- second section -->
+<!-- display the data from form and displau as a list -->
+<!-- for loop for each object -->
+<div *ngFor="let list of Lists" class="listSchool">
+    <div class="card mb-3 cardContent">
+        <div class="row no-gutters">
+            <div class="col-md-4 sideSection">
+                <span class="sectionNameSpan"> {{list.sectionName}}</span>
+            </div>
+            <div class="col-md-8 sideRight">
+                <div class="card-body">
+                    <h5 class="card-title"> {{list.className}}</h5>
+                    <p class="card-text"><small class="text-muted">school:{{list.school}}</small></p>
+                    <p class="card-text"><small class="text-muted">Grade:{{list.Grades}}</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<section class="landingPage">
+  <div class="container ">
+    <app-school-form (classesFields)="onclassesAdded($event)"></app-school-form>
+
+    <app-school-student-list [Lists]="storedClasses"></app-school-student-list>
+
+  </div>
+</section>
